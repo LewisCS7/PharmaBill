@@ -5,9 +5,25 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
+    <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp" />
+    <meta http-equiv="Cross-Origin-Resource-Policy" content="same-site" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Ajoutez ces méta-tags dans votre HTML ou configurez-les côté serveur
+      document.head.appendChild(Object.assign(document.createElement('meta'), {
+        httpEquiv: 'Cross-Origin-Embedder-Policy',
+        content: 'require-corp'
+      }));
+
+      document.head.appendChild(Object.assign(document.createElement('meta'), {
+        httpEquiv: 'Cross-Origin-Resource-Policy',
+        content: 'same-site'
+      }));
+
+      // ...reste de votre code...
+    </script>
   </body>
 </html>
