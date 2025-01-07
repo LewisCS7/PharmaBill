@@ -1,10 +1,10 @@
 # PharmaBill
 
-Ce projet est une application web développée avec React et TypeScript. Elle permet de générer des factures médicales professionnelles en temps réel, avec des calculs automatiques tels que le sous-total, la TVA et le total. Elle est conçue pour être utilisée en ligne, mais elle peut également être téléchargée et utilisée hors ligne. C'est un projet open source, sans backend requis. Vous pouvez le télécharger et l'utiliser pour vos propres besoins. En outre, elle utilise les méta-tags pour configurer les politiques de sécurité du navigateur, ce qui permet de garantir que les données sont protégées et que les utilisateurs ne peuvent pas accéder à des données sensibles.
+Ce projet est une application web développée avec React et TypeScript. Elle permet de générer des factures médicales professionnelles en temps réel sous forme de PDF, avec des calculs automatiques tels que le sous-total, la TVA et le total. Il y a une fonctionnalité de code QR pour une vérification facile afin de rendre chaque facture unique et facile à scanner. Elle est conçue pour être utilisée en ligne, mais elle peut également être téléchargée et utilisée hors ligne. C'est un projet open source, sans backend requis. Vous pouvez le télécharger et l'utiliser pour vos propres besoins. En outre, elle utilise les méta-tags pour configurer les politiques de sécurité du navigateur, ce qui permet de garantir que les données sont protégées et que les utilisateurs ne peuvent pas accéder à des données sensibles. 
 
-🔗 **Demo:** [https://classy-sunflower-94e5d8.netlify.app](https://classy-sunflower-94e5d8.netlify.app)
+🔗 **Lien de Demo:** [https://classy-sunflower-94e5d8.netlify.app](https://classy-sunflower-94e5d8.netlify.app)
 
-![Logo PharmaBill](https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/receipt.svg)
+🧾 **Exemple de facture:** [Voir PDF](invoice-INV-1735786879995.pdf)
 
 ## Fonctionnalités
 
